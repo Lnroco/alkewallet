@@ -1,0 +1,83 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: lightskyblue;
+}
+
+header{
+    height: fit-content;
+}
+
+h1{
+    padding: 10px 24px;
+    font-weight: 600;
+}
+
+.navbar{
+    padding: 10px 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main{
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 400px;
+    height: auto;
+    background-color: whitesmoke;
+    padding: 12px;
+    margin: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    box-shadow: 2px 2px 4px 2px slategray;
+    aspect-ratio: 1/1;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+}
+
+footer{
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+h2{
+    text-align: center;
+}
+
+.block{
+    display: flex;
+    gap: 40px;
+}
+
+.container{
+    padding: 4px;
+    border-radius: 10px;
+    border-style: groove;
+    height: auto;
+    width: auto;
+}
